@@ -5,7 +5,7 @@ var x_speed = 5;
 var y_speed = 5;
 
 function run_animation_loop() {
-    var window_w = window.innerWidth;
+    const window_w = window.innerWidth;
     var window_h = window.innerHeight;
 
     x_coord = x_coord + x_speed;
