@@ -222,8 +222,8 @@ namespace DatesAndStuff.Tests
         [Test]
         public void GiveTwoDateTimes_WhenSubtractingEachother_ResultShouldBeCorrect()
         {
-            SimulationTime st1 = new SimulationTime(2012, 12, 12, 12, 12, 12);
-            SimulationTime st2 = new SimulationTime(2012, 12, 12, 12, 12, 10);
+            SimulationTime st1 = new SimulationTime(2012, 12, 12, 12, 10, 10);
+            SimulationTime st2 = new SimulationTime(2012, 12, 12, 12, 10, 8);
 
             TimeSpan delta = st1 - st2;
 
