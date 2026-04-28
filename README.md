@@ -33,3 +33,4 @@ A következő feladathoz fog kelleni egy JS/TS projekt. Lehet használni más ta
 ![](concrete_part_solved.png)
 ![](sonar_not_working.png)
 ![](sonar_cloud.png)
+![](sonar_better.png)
