@@ -228,7 +228,7 @@ namespace DatesAndStuff.Tests
             TimeSpan delta = st1 - st2;
 
             delta.TotalSeconds.Should().Be(2);
-        }
+        }  
 
         [Test]
         // Check string representation given by ToString
