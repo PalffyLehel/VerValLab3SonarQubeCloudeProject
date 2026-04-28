@@ -1,0 +1,14 @@
+semi: true
+tabWidth: 4
+printWidth: 120
+singleQuote: true
+trailingComma: all
+arrowParens: always
+endOfLine: auto
+
+# this setting only applies to json files
+overrides:
+  - files: "*.json"
+    options:
+      tabWidth: 2
+      trailingComma: none
